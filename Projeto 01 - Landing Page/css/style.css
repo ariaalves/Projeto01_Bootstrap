@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Helvetica,sans-serif;
+}
+
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('/img/digital-painting-mountain-with-colorful-tree-foreground\ \(2\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner .navbar{
+    margin-top: 4%;
+}
+
+.banner .navbar-brand{
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-left: 10%;
+}
+
+.banner .nav{
+    margin-right: 10%;
+}
+
+.banner .nav li a{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.banner .nav li a:hover{
+    color: hsl(194, 77%, 36%);;
+}
+
+.banner .info{
+    margin-top: 12%;
+    transform: translateY(-15%);
+}
+
+.banner .info h1{
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 2%;
+}
+
+.banner .info p{
+    font-size: 1.8em;
+    font-weight: 500;
+    color: #aaa;
+    letter-spacing: 2px;
+    margin-bottom: 2%;
+}
+
+.banner .info a{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background: hsl(194, 75%, 30%);
+    padding: 15px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.banner .info a:hover{
+    background: #fff;
+    color: hsl(194, 75%, 30%);;
+}
